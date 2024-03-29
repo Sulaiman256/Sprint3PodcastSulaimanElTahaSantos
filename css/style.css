@@ -22,7 +22,7 @@ header .navbar .column {
 }
 
 header .navbar img {
-  margin-right: 10px;
+  margin-right: 40px;
 }
 
 header .navbar i.fa-rss {
@@ -213,4 +213,51 @@ header .navbar ul li:active a {
 .divImage2 img {
   width: 100%;
   height: 100%;
+  margin-left: 20px;
+}
+
+.textoSobreMi h3 {
+  background-color: #383838;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #c5dfc5;
+}
+
+.textoSobreMi a {
+  margin-top: 55px;
+  display: inline-block;
+  padding: 10px 20px;
+  color: black;
+  border: 1px solid black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.footerContent {
+  margin-top: 2vh;
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 1300px;
+  justify-content: space-between;
+}
+
+.textFooter,
+.iconFooter {
+  width: 50%;
+  height: auto;
+  margin-bottom: 100px;
+}
+.textFooter span a {
+  text-decoration: underline;
+  color: #6d766c;
+}
+.textFooter span {
+  color: #6d766c;
+}
+
+.iconFooter i {
+  margin-left: 15px;
+}
+.iconFooter {
+  margin-left: 290px;
 }
