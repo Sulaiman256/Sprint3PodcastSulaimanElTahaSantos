@@ -223,7 +223,7 @@ header .navbar ul li:active a {
   color: #c5dfc5;
 }
 
-.textoSobreMi a {
+.textoSobreMi .contact {
   margin-top: 55px;
   display: inline-block;
   padding: 10px 20px;
@@ -231,6 +231,16 @@ header .navbar ul li:active a {
   border: 1px solid black;
   background-color: transparent;
   text-decoration: none;
+}
+
+.parrafo {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #6d766c;
+}
+.textoSobreMi p {
+  color: #6d766c;
 }
 .footerContent {
   margin-top: 2vh;
@@ -254,10 +264,78 @@ header .navbar ul li:active a {
 .textFooter span {
   color: #6d766c;
 }
-
+.iconFooter a {
+  text-decoration: none;
+  color: black;
+}
 .iconFooter i {
   margin-left: 15px;
 }
 .iconFooter {
   margin-left: 290px;
+}
+.iconMessage2 {
+  position: relative;
+  margin-top: 75px;
+}
+
+.iconMessage2 i {
+  font-size: 24px;
+}
+
+.containerMain {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 850px;
+  justify-content: space-between;
+}
+
+.textContact h3 {
+  margin-left: 25px;
+  background-color: #383838;
+  display: inline-block;
+  padding: 7px 20px;
+  color: #c5dfc5;
+}
+.textContact p {
+  margin-left: 25px;
+}
+
+.containerMain form {
+  margin-left: 25px;
+  width: 100%;
+  max-width: 640px;
+}
+.containerMain form input {
+  width: 100%;
+  margin-bottom: 10px;
+  border: solid 1px black;
+  padding: 7px;
+}
+
+.containerMain form button {
+  background-color: transparent;
+  border: none;
+  margin-top: 5px;
+  margin-left: 610px;
+}
+
+.containerMain form .inputContainer {
+  position: relative;
+}
+.containerMain form .inputContainer input::placeholder {
+  color: black;
+  position: absolute;
+  right: 2px;
+  left: 15px;
+}
+.containerMain form .inputContainer .textArea {
+  padding-bottom: 60px;
+}
+
+.containerMain form button:active {
+  background-color: green;
 }
