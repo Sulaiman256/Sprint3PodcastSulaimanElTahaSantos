@@ -320,7 +320,8 @@ header .navbar ul li:active a {
   background-color: transparent;
   border: none;
   margin-top: 5px;
-  margin-left: 610px;
+  margin-left: 600px;
+  font-size: 18px;
 }
 
 .containerMain form .inputContainer {
@@ -337,5 +338,5 @@ header .navbar ul li:active a {
 }
 
 .containerMain form button:active {
-  background-color: green;
+  color: green;
 }
