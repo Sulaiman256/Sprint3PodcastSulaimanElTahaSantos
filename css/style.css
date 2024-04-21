@@ -149,6 +149,7 @@ main {
 }
 
 .lineaNegra {
+  margin-top: 50px;
   border-top: 1px solid grey;
 }
 
@@ -247,7 +248,7 @@ header .navbar ul li:active a {
   display: flex;
   border-radius: 5px;
   margin-bottom: 20px;
-  width: 1300px;
+  width: 1400px;
   justify-content: space-between;
 }
 
