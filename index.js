@@ -1,4 +1,6 @@
-fetch("./database/PodcastSulaimanElTahaSantos.xml")
+fetch(
+  "../Sprint3PodcastSulaimanElTahaSantos/database/PodcastSulaimanElTahaSantos.xml"
+)
   .then((response) => response.text())
   .then((data) => {
     const parser = new DOMParser();
