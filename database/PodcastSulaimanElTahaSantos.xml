@@ -1,10 +1,9 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <podcast xsi:noNamespaceSchemaLocation="esquema_podcast.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <posts>
         <post titulo=" La Tecnologia" fecha="2024-04-15">
             <autor>
-                <nombre>Juan Perez</nombre>
+                <nombre>Juan</nombre>
                 <avatar>https://thumbs.dreamstime.com/z/icono-vectorial-de-dos-avatares-color-del-concepto-tecnologia-futura-simbolo-avatar-azul-aislado-puede-ser-usado-para-web-movil-149155407.jpg</avatar>
             </autor>
             <introduccion>Ultimas tendencias en tecnologia y gadgets.</introduccion>
@@ -17,7 +16,7 @@
         </post>
         <post titulo="El Cine y Entretenimiento" fecha="2024-04-14">
             <autor>
-                <nombre>Maria Lopez</nombre>
+                <nombre>Maria</nombre>
                 <avatar>https://static.vecteezy.com/system/resources/previews/011/971/604/non_2x/cinema-movie-logo-with-black-color-template-vector.jpg</avatar>
             </autor>
             <introduccion>Lo mejor del cine y las series de TV.</introduccion>
@@ -30,7 +29,7 @@
         </post>
         <post titulo="Los Deportes" fecha="2024-04-13">
             <autor>
-                <nombre>Carlos Martinez</nombre>
+                <nombre>Carlos</nombre>
                 <avatar>https://i.pinimg.com/736x/cd/e2/2c/cde22c412540bd2fdd84e4dfa747b911.jpg</avatar>
             </autor>
             <introduccion>Todo sobre futbol, baloncesto y mas.</introduccion>
@@ -43,7 +42,7 @@
         </post>
         <post titulo="La Salud y Bienestar" fecha="2024-04-12">
             <autor>
-                <nombre>Laura Gomez</nombre>
+                <nombre>Laura</nombre>
                 <avatar>https://thumbs.dreamstime.com/b/logo-del-icono-de-concepto-salud-corazon-forma-simple-rojo-con-la-linea-blanca-dentro-169861715.jpg</avatar>
             </autor>
             <introduccion>Consejos practicos para una vida saludable.</introduccion>
@@ -71,4 +70,3 @@
         </post>
     </posts>
 </podcast>
-```

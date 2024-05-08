@@ -3,6 +3,12 @@ body {
   color: black;
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -109,6 +115,14 @@ main {
 .itemDiv p {
   margin: 5px 0;
 }
+.userPerfil img {
+  max-width: 25px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-bottom: 33px;
+  margin-top: 30px;
+  margin-right: 15px;
+}
 
 .itemDiv .userPerfil {
   display: flex;
@@ -116,13 +130,13 @@ main {
   position: relative;
 }
 .itemDiv .userPerfil h3 {
-  margin-left: 10px;
+  margin-left: 1px;
   margin-top: 0;
   padding-top: 0;
 }
 
 .itemDiv .userPerfil i {
-  margin-left: 25px;
+  margin-left: 89px;
   margin-bottom: 33px;
   margin-top: 30px;
   margin-right: 10px;
@@ -133,7 +147,7 @@ main {
   margin: 0;
   position: absolute;
   top: 45px;
-  right: 240px;
+  right: 270px;
 }
 
 .itemDiv .userPerfil .fa-crown {
@@ -157,17 +171,25 @@ main {
   display: flex;
   align-items: center;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .visualizacionesComentarios > div {
-  margin-right: 10px;
+  margin-right: 20px;
   margin-top: 20px;
+  white-space: nowrap;
 }
 
 .visualizacionesComentarios > i {
-  margin-left: auto;
-  margin-right: 1px;
+  position: absolute;
+  right: 1px;
 }
+
+.visualizacionesComentarios > span {
+  position: absolute;
+  right: 20px;
+}
+
 .divFooter {
   margin-left: 30px;
   margin-right: 30px;
@@ -176,6 +198,9 @@ main {
 .textoitemDiv {
   margin-left: 25px;
   margin-right: 25px;
+}
+.textoitemDiv p {
+  justify-content: justify;
 }
 .visualizacionesComentarios > span {
   margin-left: 105px;
