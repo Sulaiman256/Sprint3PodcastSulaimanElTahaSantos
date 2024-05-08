@@ -1,6 +1,4 @@
-fetch(
-  "../Sprint3PodcastSulaimanElTahaSantos/database/PodcastSulaimanElTahaSantos.xml"
-)
+fetch("./database/PodcastSulaimanElTahaSantos.xml")
   .then((response) => response.text())
   .then((data) => {
     const parser = new DOMParser();
@@ -35,12 +33,12 @@ fetch(
             <img src="${avatar}" alt="" />
             <h3>${nombre}</h3>
             <i class="fa-solid fa-crown" style="color: #000000"></i>
-            <p>${fecha} ${tiempoLectura}</p>
+            <p>${fecha} ${tiempoLectura} min</p>
             <i class="fa-solid fa-ellipsis-vertical" style="color: #000000"></i>
           </div>
           <div class="textoitemDiv">
             <h2>${titulo}</h2>
-            <p>${introduccion} ${descripcion}</p>
+            <p> ${descripcion}</p>
           </div>
           <div class="divFooter">
             <div class="lineaNegra"></div>
