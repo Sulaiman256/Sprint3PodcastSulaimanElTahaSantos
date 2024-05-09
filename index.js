@@ -24,7 +24,7 @@ fetch("./database/PodcastSulaimanElTahaSantos.xml")
       let imagen = posts[i].querySelector("imagen").textContent;
 
       const card = `
-      <div class="card">
+      <div class="card" id=podcast${i}>
         <div class="imagenDiv">
           <img src="${imagen}" alt="" />
         </div>
