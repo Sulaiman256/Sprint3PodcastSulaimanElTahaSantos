@@ -1,30 +1,34 @@
-fetch("./database/PodcastSulaimanElTahaSantos.xml")
-  .then((response) => response.text())
-  .then((data) => {
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(data, "application/xml");
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("./database/PodcastSulaimanElTahaSantos.xml")
+    .then((response) => response.text())
+    .then((data) => {
+      const parser = new DOMParser();
+      const xml = parser.parseFromString(data, "application/xml");
 
-    const posts = xml.querySelectorAll("post");
+      const posts = xml.querySelectorAll("post");
 
-    let cards = "";
-    for (let i = 0; i < posts.length; i++) {
-      let titulo = posts[i].getAttribute("titulo");
-      let fecha = posts[i].getAttribute("fecha");
-      let nombre = posts[i].querySelector("nombre").textContent;
-      let avatar = posts[i].querySelector("avatar").textContent;
-      let introduccion = posts[i].querySelector("introduccion").textContent;
-      let descripcion = posts[i].querySelector("descripcion").textContent;
-      let tiempoLectura = posts[i].querySelector("tiempo_lectura").textContent;
-      let numVisualizaciones = posts[i].querySelector(
-        "num_visualizaciones"
-      ).textContent;
-      let numComentarios =
-        posts[i].querySelector("num_comentarios").textContent;
-      let numLikes = posts[i].querySelector("num_megusta").textContent;
-      let imagen = posts[i].querySelector("imagen").textContent;
+      let cards = "";
+      for (let i = 0; i < posts.length; i++) {
+        let titulo = posts[i].getAttribute("titulo");
+        let fecha = posts[i].getAttribute("fecha");
+        let nombre = posts[i].querySelector("nombre").textContent;
+        let avatar = posts[i].querySelector("avatar").textContent;
+        let introduccion = posts[i].querySelector("introduccion").textContent;
+        let descripcion = posts[i].querySelector("descripcion").textContent;
+        let tiempoLectura =
+          posts[i].querySelector("tiempo_lectura").textContent;
+        let numVisualizaciones = posts[i].querySelector(
+          "num_visualizaciones"
+        ).textContent;
+        let numComentarios =
+          posts[i].querySelector("num_comentarios").textContent;
+        let numLikes = posts[i].querySelector("num_megusta").textContent;
+        let imagen = posts[i].querySelector("imagen").textContent;
 
-      const card = `
-      <div class="card" id=podcast${i}>
+        const card = `
+      <div class="card" id=podcast${i} onclick="window.location.href='./vistaPodcast.html?id=${posts[
+          i
+        ].getAttribute("id")}'">
         <div class="imagenDiv">
           <img src="${imagen}" alt="" />
         </div>
@@ -52,8 +56,9 @@ fetch("./database/PodcastSulaimanElTahaSantos.xml")
         </div>
       </div>
       `;
-      cards = cards + card;
-    }
+        cards = cards + card;
+      }
 
-    document.querySelector(".card-container").innerHTML = cards;
-  });
+      document.querySelector(".card-container").innerHTML = cards;
+    });
+});

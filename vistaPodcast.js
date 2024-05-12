@@ -1,4 +1,4 @@
-window.onload = function () {
+/*window.onload = function () {
   fetch("/database/PodcastSulaimanElTahaSantos.xml")
     .then((response) => response.text())
     .then((data) => {
@@ -91,3 +91,4 @@ window.onload = function () {
       });
     });
 };
+)*/

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <podcast xsi:noNamespaceSchemaLocation="esquema_podcast.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <posts>
-        <post titulo=" La Tecnologia" fecha="2024-04-15">
+        <post titulo=" La Tecnologia" fecha="2024-04-15" id="0">
             <autor>
                 <nombre>Juan</nombre>
                 <avatar>https://thumbs.dreamstime.com/z/icono-vectorial-de-dos-avatares-color-del-concepto-tecnologia-futura-simbolo-avatar-azul-aislado-puede-ser-usado-para-web-movil-149155407.jpg</avatar>
@@ -14,7 +14,7 @@
             <num_megusta>350</num_megusta>
             <imagen>https://www.ikusi.com/mx/wp-content/uploads/sites/2/2022/06/post_thumbnail-4efabca9bd56b38edc0058c4ba006481.jpeg</imagen>
         </post>
-        <post titulo="El Cine y Entretenimiento" fecha="2024-04-14">
+        <post titulo="El Cine y Entretenimiento" fecha="2024-04-14" id="1">
             <autor>
                 <nombre>Maria</nombre>
                 <avatar>https://static.vecteezy.com/system/resources/previews/011/971/604/non_2x/cinema-movie-logo-with-black-color-template-vector.jpg</avatar>
@@ -27,7 +27,7 @@
             <num_megusta>600</num_megusta>
             <imagen>https://img.freepik.com/vector-premium/logo-cine_23-2147503279.jpg</imagen>
         </post>
-        <post titulo="Los Deportes" fecha="2024-04-13">
+        <post titulo="Los Deportes" fecha="2024-04-13" id="2">
             <autor>
                 <nombre>Carlos</nombre>
                 <avatar>https://i.pinimg.com/736x/cd/e2/2c/cde22c412540bd2fdd84e4dfa747b911.jpg</avatar>
@@ -40,7 +40,7 @@
             <num_megusta>250</num_megusta>
             <imagen>https://ichef.bbci.co.uk/ace/ws/640/amz/worldservice/live/assets/images/2015/12/28/151228155737_personalidad_deporte_640x360_bbc_nocredit.jpg</imagen>
         </post>
-        <post titulo="La Salud y Bienestar" fecha="2024-04-12">
+        <post titulo="La Salud y Bienestar" fecha="2024-04-12" id="3">
             <autor>
                 <nombre>Laura</nombre>
                 <avatar>https://thumbs.dreamstime.com/b/logo-del-icono-de-concepto-salud-corazon-forma-simple-rojo-con-la-linea-blanca-dentro-169861715.jpg</avatar>
@@ -55,7 +55,7 @@
         </post>
 
 
-        <post titulo="Islam y Pensamiento" fecha="2024-04-10">
+        <post titulo="Islam y Pensamiento" fecha="2024-04-10" id="4">
             <autor>
                 <nombre>Ahmad</nombre>
                 <avatar>https://static.vecteezy.com/system/resources/previews/003/111/376/original/muslim-man-and-avatar-vector.jpg</avatar>
