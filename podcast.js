@@ -7,22 +7,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const posts = xml.querySelectorAll("post");
 
-      posts.forEach((post, index) => {
+      posts.forEach((post) => {
         // Obtener los datos del post
         let postId = post.getAttribute("id");
         let titulo = post.getAttribute("titulo");
         let descripcion = post.querySelector("descripcion").textContent;
         let imagen = post.querySelector("imagen").textContent;
 
-        // Buscar el contenedor correspondiente
         const container = document.querySelector(`.productoDetalle`);
 
         const queryString = window.location.search;
 
-        // Parsear la cadena de consulta para obtener los parámetros
         const urlParams = new URLSearchParams(queryString);
 
-        // Obtener el valor del parámetro "id"
         const id = urlParams.get("id");
 
         if (id === postId) {
