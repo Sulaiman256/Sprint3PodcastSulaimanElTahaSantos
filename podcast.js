@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
               .productoDetalle {
                 text-align: center;
                 max-width: 600px;
-                margin: 25px auto 0; /* Agregamos un margen superior */
+                margin: 25px auto 0; 
                 padding: 20px;
                 background-color: #f9f9f9;
                 border-radius: 10px;
